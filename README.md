@@ -18,7 +18,7 @@ Requires **Blender 5.2 LTS** or newer (files were written with 5.2.3).
 
 | Folder | What is in it |
 |---|---|
-| [`instruments/`](instruments/) | One `.blend` per ARM instrument (AERI, KAZR, DL, MPL, MWR3C, MET tower, ECOR, SEBS, SIRS, RWP, …) plus the C-SAPR2 radar and the KAWG AWOS |
+| [`instruments/`](instruments/) | One `.blend` per ARM instrument (AERI, KAZR, DL, MPL, MWR3C, MET tower, ECOR, SEBS, SIRS, RWP, …) plus the C-SAPR2 radar, the KAWG AWOS and the radiosonde balloon launch (balloon, sonde, line and launch crew, animated) |
 | [`containers/`](containers/) | AMF2 instrument containers, AOS platform, office shelter, and the SACR container (M1 and S2 versions) |
 | [`buildings/`](buildings/) | Farmstead (M1), MIRF buildings and center pivots (S1), KAWG hangars and terminal (S2), Louisa power station, flagpole, site signs |
 | [`vehicles/`](vehicles/) | Farm vehicles and implements, and the ARM Challenger 850 research aircraft |
