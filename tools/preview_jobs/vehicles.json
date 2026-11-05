@@ -1,0 +1,90 @@
+[
+ {
+  "lib": "vehicles/farm_vehicles.blend",
+  "coll": "VEH_Tractor_Green",
+  "out": "vehicles/preview/VEH_Tractor_Green.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.9
+ },
+ {
+  "lib": "vehicles/farm_vehicles.blend",
+  "coll": "VEH_Telehandler_Yellow",
+  "out": "vehicles/preview/VEH_Telehandler_Yellow.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.9
+ },
+ {
+  "lib": "vehicles/farm_vehicles.blend",
+  "coll": "VEH_Pickup_White",
+  "out": "vehicles/preview/VEH_Pickup_White.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.9
+ },
+ {
+  "lib": "vehicles/farm_vehicles.blend",
+  "coll": "VEH_Implement_Disk_Green",
+  "out": "vehicles/preview/VEH_Implement_Disk_Green.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.9
+ },
+ {
+  "lib": "vehicles/farm_vehicles.blend",
+  "coll": "VEH_GrainCart_Red",
+  "out": "vehicles/preview/VEH_GrainCart_Red.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.9
+ },
+ {
+  "lib": "vehicles/farm_vehicles.blend",
+  "coll": "VEH_Gooseneck_Flatbed",
+  "out": "vehicles/preview/VEH_Gooseneck_Flatbed.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.9
+ },
+ {
+  "lib": "vehicles/farm_vehicles.blend",
+  "coll": "VEH_Cultivator_Red",
+  "out": "vehicles/preview/VEH_Cultivator_Red.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.9
+ },
+ {
+  "lib": "vehicles/c850_arm.blend",
+  "coll": "C850_ARM",
+  "out": "vehicles/preview/C850_ARM.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.62
+ }
+]

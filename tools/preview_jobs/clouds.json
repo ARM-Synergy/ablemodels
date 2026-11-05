@@ -1,0 +1,172 @@
+[
+ {
+  "lib": "clouds/cm1_bomex_cumulus/cm1_bomex_cumulus.blend",
+  "coll": "CLOUD_bomex_t360",
+  "out": "clouds/preview/bomex_t360.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 24
+ },
+ {
+  "lib": "clouds/cm1_bomex_cumulus/cm1_bomex_cumulus.blend",
+  "coll": "CLOUD_bomex_t300",
+  "out": "clouds/preview/bomex_t300.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 24
+ },
+ {
+  "lib": "clouds/cm1_bomex_cumulus/cm1_bomex_cumulus.blend",
+  "coll": "CLOUD_bomex_t240",
+  "out": "clouds/preview/bomex_t240.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 24
+ },
+ {
+  "lib": "clouds/cm1_supercell/cm1_supercell.blend",
+  "coll": "CLOUD_supercell_s250_t60",
+  "out": "clouds/preview/supercell_s250_t60.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 16,
+  "volume_bounces": 48,
+  "dist": 0.55,
+  "cam_z": 1500.0
+ },
+ {
+  "lib": "clouds/cm1_supercell/cm1_supercell.blend",
+  "coll": "CLOUD_supercell_s250_t45",
+  "out": "clouds/preview/supercell_s250_t45.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 16,
+  "volume_bounces": 48,
+  "dist": 0.55,
+  "cam_z": 1500.0
+ },
+ {
+  "lib": "clouds/cm1_supercell/cm1_supercell.blend",
+  "coll": "CLOUD_supercell_s100_t60",
+  "out": "clouds/preview/supercell_s100_t60.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 16,
+  "volume_bounces": 48,
+  "dist": 0.55,
+  "cam_z": 1500.0
+ },
+ {
+  "lib": "clouds/cm1_supercell/cm1_supercell.blend",
+  "coll": "CLOUD_supercell_s100_t45",
+  "out": "clouds/preview/supercell_s100_t45.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 16,
+  "volume_bounces": 48,
+  "dist": 0.55,
+  "cam_z": 1500.0
+ },
+ {
+  "lib": "clouds/cm1_supercell/cm1_supercell.blend",
+  "coll": "CLOUD_supercell_c100_t25",
+  "out": "clouds/preview/supercell_c100_t25.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 16,
+  "volume_bounces": 48,
+  "scene_view": "scenes/preview/test_m1_supercell_Cam_Storm_Sign.jpg"
+ },
+ {
+  "lib": "clouds/lasso_sgp_20170403/lasso_sgp_20170403.blend",
+  "coll": "CLOUD_lasso_2000",
+  "out": "clouds/preview/lasso_2000.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 24
+ },
+ {
+  "lib": "clouds/lasso_sgp_20170403/lasso_sgp_20170403.blend",
+  "coll": "CLOUD_lasso_1900",
+  "out": "clouds/preview/lasso_1900.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 24
+ },
+ {
+  "lib": "clouds/lasso_sgp_20170403/lasso_sgp_20170403.blend",
+  "coll": "CLOUD_lasso_1800",
+  "out": "clouds/preview/lasso_1800.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 24
+ },
+ {
+  "lib": "clouds/lasso_sgp_20170403/lasso_sgp_20170403.blend",
+  "coll": "CLOUD_lasso_1740",
+  "out": "clouds/preview/lasso_1740.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 24
+ },
+ {
+  "lib": "clouds/lasso_sgp_20170403/lasso_sgp_20170403.blend",
+  "coll": "CLOUD_lasso8_2040",
+  "out": "clouds/preview/lasso8_2040.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 24,
+  "scene_view": "scenes/preview/test_m1_lasso_cumulus_Cam_M1_Aerial_SE.jpg"
+ },
+ {
+  "lib": "clouds/ucla_cumulus/ucla_cumulus.blend",
+  "coll": "CLOUD_ucla_t6600",
+  "out": "clouds/preview/ucla_t6600.jpg",
+  "view": "cloud",
+  "res": [
+   960,
+   540
+  ],
+  "samples": 24,
+  "scene_view": "scenes/preview/test_s1_ucla_cumulus_Cam_Aerial_SW.jpg"
+ }
+]

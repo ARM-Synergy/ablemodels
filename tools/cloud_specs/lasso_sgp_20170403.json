@@ -1,0 +1,6 @@
+{"set": "lasso_sgp_20170403", "source": "farm_v4_lasso8.blend", "template": "prefix:LASSO_1740_", "normalize": false,
+ "snapshots": [["lasso_1740", "lasso/lasso_1740_lwc.vdb"],
+               ["lasso_1800", "lasso/timelapse_vdb/lwc_0145.vdb"],
+               ["lasso_1900", "lasso/timelapse_vdb/lwc_0193.vdb"],
+               ["lasso_2000", "lasso/timelapse_vdb/lwc_0241.vdb"],
+               ["lasso8_2040", "lasso/lasso8_2040_lwc.vdb"]]}

@@ -1,0 +1,4 @@
+{"set": "cm1_bomex_cumulus", "source": "farm_v5_cu_cm1.blend", "template": ["CM1_Storm"], "normalize": true,
+ "snapshots": [["bomex_t240", "cm1/runs/bomex50/bomex50_t240_x5.vdb"],
+               ["bomex_t300", "cm1/runs/bomex50/bomex50_t300_x5.vdb"],
+               ["bomex_t360", "cm1/runs/bomex50/bomex50_t360_x5.vdb"]]}
