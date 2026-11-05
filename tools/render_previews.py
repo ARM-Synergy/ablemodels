@@ -134,7 +134,8 @@ for j in jobs:
         L = sun.matrix_world.to_3x3() @ Vector((0, 0, -1))
         h = Vector((L.x, L.y, 0)).normalized()
         wide = max(ext.x, ext.y)
-        if wide > 20000:   # periodic LES field: stand inside it
+        nvol = sum(1 for ob in coll.all_objects if ob.type == 'VOLUME')
+        if nvol > 1:       # tiled periodic LES field: stand inside it
             cam_data.lens = 20
             cam.location = Vector((ctr.x, ctr.y, 2.0)) - h * (0.18 * wide)
             target = cam.location + h * 10000 + Vector((0, 0, 2600))

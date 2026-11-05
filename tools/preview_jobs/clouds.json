@@ -42,7 +42,9 @@
    540
   ],
   "samples": 16,
-  "volume_bounces": 48
+  "volume_bounces": 48,
+  "dist": 0.55,
+  "cam_z": 1500.0
  },
  {
   "lib": "clouds/cm1_supercell/cm1_supercell.blend",
@@ -54,7 +56,9 @@
    540
   ],
   "samples": 16,
-  "volume_bounces": 48
+  "volume_bounces": 48,
+  "dist": 0.55,
+  "cam_z": 1500.0
  },
  {
   "lib": "clouds/cm1_supercell/cm1_supercell.blend",
@@ -66,7 +70,9 @@
    540
   ],
   "samples": 16,
-  "volume_bounces": 48
+  "volume_bounces": 48,
+  "dist": 0.55,
+  "cam_z": 1500.0
  },
  {
   "lib": "clouds/cm1_supercell/cm1_supercell.blend",
@@ -78,7 +84,9 @@
    540
   ],
   "samples": 16,
-  "volume_bounces": 48
+  "volume_bounces": 48,
+  "dist": 0.55,
+  "cam_z": 1500.0
  },
  {
   "lib": "clouds/cm1_supercell/cm1_supercell.blend",
@@ -90,7 +98,8 @@
    540
   ],
   "samples": 16,
-  "volume_bounces": 48
+  "volume_bounces": 48,
+  "scene_view": "scenes/preview/test_m1_supercell_Cam_Storm_Sign.jpg"
  },
  {
   "lib": "clouds/lasso_sgp_20170403/lasso_sgp_20170403.blend",
@@ -145,7 +154,8 @@
    960,
    540
   ],
-  "samples": 24
+  "samples": 24,
+  "scene_view": "scenes/preview/test_m1_lasso_cumulus_Cam_M1_Aerial_SE.jpg"
  },
  {
   "lib": "clouds/ucla_cumulus/ucla_cumulus.blend",
@@ -156,6 +166,7 @@
    960,
    540
   ],
-  "samples": 24
+  "samples": 24,
+  "scene_view": "scenes/preview/test_s1_ucla_cumulus_Cam_Aerial_SW.jpg"
  }
 ]
