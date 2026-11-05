@@ -1,0 +1,134 @@
+[
+ {
+  "lib": "containers/amf2_containers.blend",
+  "coll": "CONT_RentalContainer",
+  "out": "containers/preview/CONT_RentalContainer.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.95
+ },
+ {
+  "lib": "containers/amf2_containers.blend",
+  "coll": "CONT_OfficeShelter",
+  "out": "containers/preview/CONT_OfficeShelter.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.95
+ },
+ {
+  "lib": "containers/amf2_containers.blend",
+  "coll": "CONT_AOS_Platform",
+  "out": "containers/preview/CONT_AOS_Platform.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.95
+ },
+ {
+  "lib": "containers/amf2_containers.blend",
+  "coll": "CONT_8_STORAGE",
+  "out": "containers/preview/CONT_8_STORAGE.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.95
+ },
+ {
+  "lib": "containers/amf2_containers.blend",
+  "coll": "CONT_7_SACR",
+  "out": "containers/preview/CONT_7_SACR.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.95
+ },
+ {
+  "lib": "containers/amf2_containers.blend",
+  "coll": "CONT_6_KAZR",
+  "out": "containers/preview/CONT_6_KAZR.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.95
+ },
+ {
+  "lib": "containers/amf2_containers.blend",
+  "coll": "CONT_5_LIDAR",
+  "out": "containers/preview/CONT_5_LIDAR.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.95
+ },
+ {
+  "lib": "containers/amf2_containers.blend",
+  "coll": "CONT_4_RADIOMETERS",
+  "out": "containers/preview/CONT_4_RADIOMETERS.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.95
+ },
+ {
+  "lib": "containers/amf2_containers.blend",
+  "coll": "CONT_3_OPS",
+  "out": "containers/preview/CONT_3_OPS.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.95
+ },
+ {
+  "lib": "containers/amf2_containers.blend",
+  "coll": "CONT_2_AOS_B",
+  "out": "containers/preview/CONT_2_AOS_B.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.95
+ },
+ {
+  "lib": "containers/amf2_containers.blend",
+  "coll": "CONT_1_AOS_A",
+  "out": "containers/preview/CONT_1_AOS_A.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.95
+ },
+ {
+  "lib": "containers/sacr_container_s2.blend",
+  "coll": "CONT_7_SACR_S2",
+  "out": "containers/preview/CONT_7_SACR_S2.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "tight": 0.95
+ }
+]

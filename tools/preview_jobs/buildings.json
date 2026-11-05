@@ -1,0 +1,114 @@
+[
+ {
+  "lib": "buildings/m1_farmstead.blend",
+  "coll": "Farmstead",
+  "out": "buildings/preview/Farmstead.jpg",
+  "view": "aerial",
+  "res": [
+   1280,
+   800
+  ],
+  "trim": 8,
+  "tight": 0.75
+ },
+ {
+  "lib": "buildings/flagpole.blend",
+  "coll": "Flagpole",
+  "out": "buildings/preview/Flagpole.jpg",
+  "view": "34",
+  "res": [
+   1280,
+   800
+  ],
+  "tight": 1.0
+ },
+ {
+  "lib": "buildings/signs/sign_M1.blend",
+  "coll": "SIGN_M1",
+  "out": "buildings/preview/SIGN_M1.jpg",
+  "view": "front_x",
+  "res": [
+   1280,
+   800
+  ],
+  "tight": 1.05
+ },
+ {
+  "lib": "buildings/signs/sign_S1.blend",
+  "coll": "SIGN_S1",
+  "out": "buildings/preview/SIGN_S1.jpg",
+  "view": "front_x",
+  "res": [
+   1280,
+   800
+  ],
+  "tight": 1.05
+ },
+ {
+  "lib": "buildings/signs/sign_S2.blend",
+  "coll": "SIGN_S2",
+  "out": "buildings/preview/SIGN_S2.jpg",
+  "view": "front_x",
+  "res": [
+   1280,
+   800
+  ],
+  "tight": 1.05
+ },
+ {
+  "lib": "buildings/center_pivots.blend",
+  "coll": "Pivot_P3",
+  "out": "buildings/preview/Pivot_P3.jpg",
+  "view": "aerial",
+  "res": [
+   1280,
+   800
+  ],
+  "tight": 0.6
+ },
+ {
+  "lib": "buildings/center_pivots.blend",
+  "coll": "Pivot_P1",
+  "out": "buildings/preview/Pivot_P1.jpg",
+  "view": "aerial",
+  "res": [
+   1280,
+   800
+  ],
+  "tight": 0.6
+ },
+ {
+  "lib": "buildings/louisa_station.blend",
+  "coll": "LOUISA_Station",
+  "out": "buildings/preview/LOUISA_Station.jpg",
+  "view": "aerial",
+  "res": [
+   1280,
+   800
+  ]
+ },
+ {
+  "lib": "buildings/s1_mirf_buildings.blend",
+  "coll": "S1_MIRF_Buildings",
+  "out": "buildings/preview/S1_MIRF_Buildings.jpg",
+  "view": "aerial",
+  "res": [
+   1280,
+   800
+  ],
+  "trim": 3,
+  "tight": 0.7
+ },
+ {
+  "lib": "buildings/s2_kawg_buildings.blend",
+  "coll": "S2_KAWG_Buildings",
+  "out": "buildings/preview/S2_KAWG_Buildings.jpg",
+  "view": "aerial",
+  "res": [
+   1280,
+   800
+  ],
+  "trim": 3,
+  "tight": 0.7
+ }
+]

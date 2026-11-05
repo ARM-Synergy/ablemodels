@@ -1,0 +1,6 @@
+{"set": "cm1_supercell", "source": "farm_v5_storm_studio.blend", "template": ["CM1_Storm"], "normalize": true,
+ "snapshots": [["supercell_c100_t25", "cm1/runs/studio_100m_c/c100_t25_sp.vdb"],
+               ["supercell_s100_t45", "cm1/runs/storm_100m/s100_t45_sp.vdb"],
+               ["supercell_s100_t60", "cm1/runs/storm_100m/s100_t60_sp.vdb"],
+               ["supercell_s250_t45", "cm1/runs/hero_250m/s250_t45_sp.vdb"],
+               ["supercell_s250_t60", "cm1/runs/hero_250m/s250_t60_sp.vdb"]]}

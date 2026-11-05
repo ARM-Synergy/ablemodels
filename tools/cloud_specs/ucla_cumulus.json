@@ -1,0 +1,2 @@
+{"set": "ucla_cumulus", "source": "mirf_s1/mirf_s1_tour_storm.blend", "template": "prefix:UCLA_", "normalize": false,
+ "snapshots": [["ucla_t6600", "lasso/ucla_t6600_m.vdb"]]}

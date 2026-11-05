@@ -1,0 +1,122 @@
+[
+ {
+  "lib": "plants/crops.blend",
+  "coll": "CornVariants",
+  "out": "plants/preview/CornVariants.jpg",
+  "view": "lineup",
+  "res": [
+   1600,
+   700
+  ]
+ },
+ {
+  "lib": "plants/crops.blend",
+  "coll": "SoyVariants",
+  "out": "plants/preview/SoyVariants.jpg",
+  "view": "lineup",
+  "res": [
+   1600,
+   700
+  ]
+ },
+ {
+  "lib": "plants/grasses.blend",
+  "coll": "GrassVariants",
+  "out": "plants/preview/GrassVariants.jpg",
+  "view": "lineup",
+  "res": [
+   1600,
+   700
+  ]
+ },
+ {
+  "lib": "plants/grasses.blend",
+  "coll": "TallGrassVariants",
+  "out": "plants/preview/TallGrassVariants.jpg",
+  "view": "lineup",
+  "res": [
+   1600,
+   700
+  ]
+ },
+ {
+  "lib": "plants/grasses_s2.blend",
+  "coll": "GrassVariants_S2",
+  "out": "plants/preview/GrassVariants_S2.jpg",
+  "view": "lineup",
+  "res": [
+   1600,
+   700
+  ]
+ },
+ {
+  "lib": "plants/grasses_s2.blend",
+  "coll": "TallGrassVariants_S2",
+  "out": "plants/preview/TallGrassVariants_S2.jpg",
+  "view": "lineup",
+  "res": [
+   1600,
+   700
+  ]
+ },
+ {
+  "lib": "plants/trees.blend",
+  "coll": "TreeVariants",
+  "out": "plants/preview/TreeVariants.jpg",
+  "view": "lineup",
+  "res": [
+   1600,
+   700
+  ]
+ },
+ {
+  "lib": "plants/trees_hd.blend",
+  "coll": "TV_Decid_HD",
+  "out": "plants/preview/TV_Decid_HD.jpg",
+  "view": "lineup",
+  "res": [
+   1600,
+   700
+  ]
+ },
+ {
+  "lib": "plants/trees_hd.blend",
+  "coll": "TV_Spruce_HD",
+  "out": "plants/preview/TV_Spruce_HD.jpg",
+  "view": "lineup",
+  "res": [
+   1600,
+   700
+  ]
+ },
+ {
+  "lib": "plants/trees_hd.blend",
+  "coll": "TV_DecidBaked_HD",
+  "out": "plants/preview/TV_DecidBaked_HD.jpg",
+  "view": "lineup",
+  "res": [
+   1600,
+   700
+  ]
+ },
+ {
+  "lib": "plants/trees_hd.blend",
+  "coll": "TV_Far_HD",
+  "out": "plants/preview/TV_Far_HD.jpg",
+  "view": "lineup",
+  "res": [
+   1600,
+   700
+  ]
+ },
+ {
+  "lib": "plants/native_flowers.blend",
+  "coll": "NativeFlowerVariants",
+  "out": "plants/preview/NativeFlowerVariants.jpg",
+  "view": "lineup",
+  "res": [
+   1600,
+   700
+  ]
+ }
+]

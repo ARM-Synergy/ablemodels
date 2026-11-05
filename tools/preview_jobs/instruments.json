@@ -1,0 +1,277 @@
+[
+ {
+  "lib": "instruments/AERI/AERI.blend",
+  "coll": "INST_AERI",
+  "out": "instruments/preview/AERI.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/AOSMET/AOSMET.blend",
+  "coll": "INST_AOSMET",
+  "out": "instruments/preview/AOSMET.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/ASI/ASI.blend",
+  "coll": "INST_ASI",
+  "out": "instruments/preview/ASI.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/AWOS/AWOS.blend",
+  "coll": "INST_AWOS",
+  "out": "instruments/preview/AWOS.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/CEIL/CEIL.blend",
+  "coll": "INST_CEIL",
+  "out": "instruments/preview/CEIL.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/CSAPR2/CSAPR2.blend",
+  "coll": "CSAPR2",
+  "out": "instruments/preview/CSAPR2.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/CSPHOT/CSPHOT.blend",
+  "coll": "INST_CSPHOT",
+  "out": "instruments/preview/CSPHOT.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/DL/DL.blend",
+  "coll": "INST_DL",
+  "out": "instruments/preview/DL.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/ECOR/ECOR.blend",
+  "coll": "INST_ECOR_4m",
+  "out": "instruments/preview/ECOR_4m.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/ECOR/ECOR.blend",
+  "coll": "INST_ECOR",
+  "out": "instruments/preview/ECOR.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/IRT/IRT.blend",
+  "coll": "INST_IRT",
+  "out": "instruments/preview/IRT.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/KAZR/KAZR.blend",
+  "coll": "INST_KAZR",
+  "out": "instruments/preview/KAZR.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/LDIS/LDIS.blend",
+  "coll": "INST_LDIS",
+  "out": "instruments/preview/LDIS.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/MAWS/MAWS.blend",
+  "coll": "INST_MAWS",
+  "out": "instruments/preview/MAWS.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/MET/MET.blend",
+  "coll": "INST_MET",
+  "out": "instruments/preview/MET.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/MFR/MFR.blend",
+  "coll": "INST_MFR",
+  "out": "instruments/preview/MFR.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/MFRSR/MFRSR.blend",
+  "coll": "INST_MFRSR",
+  "out": "instruments/preview/MFRSR.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/MPL/MPL.blend",
+  "coll": "INST_MPL",
+  "out": "instruments/preview/MPL.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/MWR3C/MWR3C.blend",
+  "coll": "INST_MWR3C",
+  "out": "instruments/preview/MWR3C.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/RWP/RWP.blend",
+  "coll": "INST_RWP",
+  "out": "instruments/preview/RWP.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/SEBS/SEBS.blend",
+  "coll": "INST_SEBS",
+  "out": "instruments/preview/SEBS.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/SIRS/SIRS.blend",
+  "coll": "INST_SIRS",
+  "out": "instruments/preview/SIRS.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/SONDE/SONDE.blend",
+  "coll": "INST_SONDE",
+  "out": "instruments/preview/SONDE.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/VDIS/VDIS.blend",
+  "coll": "INST_VDIS",
+  "out": "instruments/preview/VDIS.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/WB/WB.blend",
+  "coll": "INST_WB",
+  "out": "instruments/preview/WB.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ }
+]
