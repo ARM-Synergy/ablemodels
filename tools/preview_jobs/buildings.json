@@ -8,8 +8,9 @@
    1280,
    800
   ],
-  "trim": 8,
-  "tight": 0.75
+  "trim": 30,
+  "tight": 0.8,
+  "scene_view": "scenes/preview/M1_Cam_M1_Yard.jpg"
  },
  {
   "lib": "buildings/flagpole.blend",
@@ -31,7 +32,8 @@
    1280,
    800
   ],
-  "tight": 1.05
+  "tight": 0.45,
+  "zfrac": 0.82
  },
  {
   "lib": "buildings/signs/sign_S1.blend",
@@ -42,7 +44,8 @@
    1280,
    800
   ],
-  "tight": 1.05
+  "tight": 0.45,
+  "zfrac": 0.82
  },
  {
   "lib": "buildings/signs/sign_S2.blend",
@@ -53,7 +56,8 @@
    1280,
    800
   ],
-  "tight": 1.05
+  "tight": 0.45,
+  "zfrac": 0.82
  },
  {
   "lib": "buildings/center_pivots.blend",
@@ -96,8 +100,9 @@
    1280,
    800
   ],
-  "trim": 3,
-  "tight": 0.7
+  "trim": 12,
+  "tight": 0.75,
+  "scene_view": "scenes/preview/S1_Cam_Aerial_SW.jpg"
  },
  {
   "lib": "buildings/s2_kawg_buildings.blend",
@@ -108,7 +113,7 @@
    1280,
    800
   ],
-  "trim": 3,
-  "tight": 0.7
+  "trim": 5,
+  "tight": 0.65
  }
 ]

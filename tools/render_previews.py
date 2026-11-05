@@ -77,8 +77,9 @@ def bounds(empties, trim=0.0):
     return lo, hi, n
 
 
-def frame(lo, hi, view, res, j_tight=0.72):
+def frame(lo, hi, view, res, j_tight=0.72, zfrac=0.5):
     ctr = (lo + hi) / 2; ext = hi - lo
+    ctr.z = lo.z + zfrac * ext.z
     rad = max(ext.length / 2, 0.3)
     d = {'34': Vector((-1.0, -1.35, 0.62)), 'aerial': Vector((-0.75, -1.0, 1.15)),
          'lineup': Vector((0.0, -1.0, 0.28)), 'cloud': Vector((-0.6, -1.0, 0.22)),
@@ -93,6 +94,10 @@ def frame(lo, hi, view, res, j_tight=0.72):
 
 made = []
 for j in jobs:
+    if j.get('scene_view'):   # site layers spread over kilometres read better in their scene
+        import shutil
+        shutil.copy(os.path.join(REPO, j['scene_view']), os.path.join(REPO, j['out']))
+        continue
     res = j.get('res', [1280, 960]); r.resolution_x, r.resolution_y = res; r.resolution_percentage = 100
     sc.cycles.samples = j.get('samples', 64)
     # cloud scenes in the working files use deep volume scattering
@@ -101,6 +106,9 @@ for j in jobs:
     sc.cycles.sample_clamp_indirect = 10.0
     view = j.get('view', '34')
     coll = link_coll(j['lib'], j['coll'])
+    for ob in coll.all_objects:          # volume bounds are only known once the grids are read
+        if ob.type == 'VOLUME':
+            ob.data.grids.load()
     empties = []
     if view == 'lineup':
         objs = sorted([o for o in coll.all_objects if o.type in ('MESH', 'CURVE', 'VOLUME') and o.parent is None], key=lambda o: o.name)
@@ -130,16 +138,16 @@ for j in jobs:
             cam_data.lens = 20
             cam.location = Vector((ctr.x, ctr.y, 2.0)) - h * (0.18 * wide)
             target = cam.location + h * 10000 + Vector((0, 0, 2600))
-        else:              # single storm: stand back so the whole cell fits
-            cam_data.lens = 24
-            cam.location = Vector((ctr.x, ctr.y, 2.0)) - h * (j.get('dist', 1.35) * wide)
-            target = Vector((ctr.x, ctr.y, lo.z + 0.35 * ext.z))
+        else:              # single storm: elevated, sun behind, whole cell in view
+            cam_data.lens = 35
+            cam.location = Vector((ctr.x, ctr.y, j.get('cam_z', 3000.0))) - h * (j.get('dist', 2.2) * wide)
+            target = Vector((ctr.x, ctr.y, lo.z + 0.3 * ext.z))
         cam.rotation_euler = (target - cam.location).to_track_quat('-Z', 'Y').to_euler()
         cam_data.clip_start = 0.5; cam_data.clip_end = wide * 6
         ctr = Vector((cam.location.x, cam.location.y, 0)); ext = Vector((wide, wide, ext.z))
     else:
         cam_data.lens = 50
-        ctr, ext = frame(lo, hi, view, res, j.get('tight', 0.72 if view in ('34', 'lineup') else 0.85))
+        ctr, ext = frame(lo, hi, view, res, j.get('tight', 0.72 if view in ('34', 'lineup') else 0.85), j.get('zfrac', 0.5))
     gsize = max(ext.x, ext.y, 1.0) * (40 if view != 'cloud' else 12)
     bpy.ops.mesh.primitive_plane_add(size=gsize, location=(ctr.x, ctr.y, lo.z - 0.002 if view != 'cloud' else 0.0))
     g = bpy.context.active_object; g.data.materials.append(ground_mat)

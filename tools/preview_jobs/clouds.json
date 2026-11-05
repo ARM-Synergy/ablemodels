@@ -41,7 +41,8 @@
    960,
    540
   ],
-  "samples": 24
+  "samples": 16,
+  "volume_bounces": 48
  },
  {
   "lib": "clouds/cm1_supercell/cm1_supercell.blend",
@@ -52,7 +53,8 @@
    960,
    540
   ],
-  "samples": 24
+  "samples": 16,
+  "volume_bounces": 48
  },
  {
   "lib": "clouds/cm1_supercell/cm1_supercell.blend",
@@ -63,7 +65,8 @@
    960,
    540
   ],
-  "samples": 24
+  "samples": 16,
+  "volume_bounces": 48
  },
  {
   "lib": "clouds/cm1_supercell/cm1_supercell.blend",
@@ -74,7 +77,8 @@
    960,
    540
   ],
-  "samples": 24
+  "samples": 16,
+  "volume_bounces": 48
  },
  {
   "lib": "clouds/cm1_supercell/cm1_supercell.blend",
@@ -85,7 +89,8 @@
    960,
    540
   ],
-  "samples": 24
+  "samples": 16,
+  "volume_bounces": 48
  },
  {
   "lib": "clouds/lasso_sgp_20170403/lasso_sgp_20170403.blend",

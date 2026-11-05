@@ -36,7 +36,7 @@ for name in ['M1', 'S1', 'S2']:
     imgs = sorted(glob.glob(os.path.join(R, 'scenes/preview', name + '_*.jpg')))
     layers = sorted(glob.glob(os.path.join(R, 'scenes', name, 'layers', '*.blend')))
     rows.append(f'## {name}\n\n`{name}/{name}.blend` ({mb(f"scenes/{name}/{name}.blend")}) — layers: ' +
-                ', '.join(f'`{os.path.relpath(l, os.path.join(R, "scenes"))}` ({os.path.getsize(l) / 1e6:.0f} MB)' for l in layers) + '\n\n' +
+                ', '.join(f'`{os.path.relpath(l, os.path.join(R, "scenes"))}` ({os.path.getsize(l) / 1e6:.1f} MB)' for l in layers) + '\n\n' +
                 ' '.join(f'<img src="preview/{os.path.basename(i)}" width="400">' for i in imgs))
 tests = sorted(glob.glob(os.path.join(R, 'scenes/tests/*.blend')))
 trow = []
