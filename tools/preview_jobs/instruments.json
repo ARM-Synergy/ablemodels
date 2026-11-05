@@ -44,6 +44,19 @@
   "samples": 64
  },
  {
+  "lib": "instruments/BALLOON/BALLOON.blend",
+  "coll": "INST_BALLOON",
+  "out": "instruments/preview/BALLOON.jpg",
+  "view": "front_x",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64,
+  "tight": 0.75,
+  "zfrac": 0.45
+ },
+ {
   "lib": "instruments/CEIL/CEIL.blend",
   "coll": "INST_CEIL",
   "out": "instruments/preview/CEIL.jpg",
@@ -89,8 +102,8 @@
  },
  {
   "lib": "instruments/ECOR/ECOR.blend",
-  "coll": "INST_ECOR_4m",
-  "out": "instruments/preview/ECOR_4m.jpg",
+  "coll": "INST_ECOR",
+  "out": "instruments/preview/ECOR.jpg",
   "view": "34",
   "res": [
    1024,
@@ -100,8 +113,8 @@
  },
  {
   "lib": "instruments/ECOR/ECOR.blend",
-  "coll": "INST_ECOR",
-  "out": "instruments/preview/ECOR.jpg",
+  "coll": "INST_ECOR_4m",
+  "out": "instruments/preview/ECOR_4m.jpg",
   "view": "34",
   "res": [
    1024,

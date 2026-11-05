@@ -4,7 +4,7 @@ Each site scene is a thin file holding cameras, lights, world and render setting
 
 ## M1
 
-`M1/M1.blend` (2.3 MB) — layers: `M1/layers/m1_amf2_site.blend` (0.2 MB), `M1/layers/m1_fields.blend` (11.8 MB), `M1/layers/m1_ground.blend` (45.4 MB)
+`M1/M1.blend` (0.5 MB) — layers: `M1/layers/m1_amf2_site.blend` (0.2 MB), `M1/layers/m1_fields.blend` (11.8 MB), `M1/layers/m1_ground.blend` (45.4 MB)
 
 <img src="preview/M1_Cam_M1_Aerial_SE.jpg" width="400"> <img src="preview/M1_Cam_M1_Yard.jpg" width="400"> <img src="preview/M1_Cam_Sign_M1.jpg" width="400"> <img src="preview/M1_Camera_AMF2.jpg" width="400"> <img src="preview/M1_Camera_MetTower.jpg" width="400">
 
