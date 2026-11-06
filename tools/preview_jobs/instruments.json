@@ -123,6 +123,17 @@
   "samples": 64
  },
  {
+  "lib": "instruments/GNDRAD/GNDRAD.blend",
+  "coll": "INST_GNDRAD",
+  "out": "instruments/preview/GNDRAD.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
   "lib": "instruments/IRT/IRT.blend",
   "coll": "INST_IRT",
   "out": "instruments/preview/IRT.jpg",
@@ -178,6 +189,18 @@
   "samples": 64
  },
  {
+  "lib": "instruments/METWXT/METWXT.blend",
+  "coll": "INST_METWXT",
+  "out": "instruments/preview/METWXT.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64,
+  "tight": 1.15
+ },
+ {
   "lib": "instruments/MFR/MFR.blend",
   "coll": "INST_MFR",
   "out": "instruments/preview/MFR.jpg",
@@ -211,9 +234,32 @@
   "samples": 64
  },
  {
+  "lib": "instruments/MRR/MRR.blend",
+  "coll": "INST_MRR",
+  "out": "instruments/preview/MRR.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64,
+  "tight": 1.25
+ },
+ {
   "lib": "instruments/MWR3C/MWR3C.blend",
   "coll": "INST_MWR3C",
   "out": "instruments/preview/MWR3C.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64
+ },
+ {
+  "lib": "instruments/PHENOCAM/PHENOCAM.blend",
+  "coll": "INST_PHENOCAM",
+  "out": "instruments/preview/PHENOCAM.jpg",
   "view": "34",
   "res": [
    1024,
@@ -255,6 +301,18 @@
   "samples": 64
  },
  {
+  "lib": "instruments/SOILVUE10/SOILVUE10.blend",
+  "coll": "INST_SOILVUE10",
+  "out": "instruments/preview/SOILVUE10.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64,
+  "tight": 1.25
+ },
+ {
   "lib": "instruments/SONDE/SONDE.blend",
   "coll": "INST_SONDE",
   "out": "instruments/preview/SONDE.jpg",
@@ -264,6 +322,18 @@
    768
   ],
   "samples": 64
+ },
+ {
+  "lib": "instruments/STAMP/STAMP.blend",
+  "coll": "INST_STAMP",
+  "out": "instruments/preview/STAMP.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64,
+  "tight": 1.0
  },
  {
   "lib": "instruments/VDIS/VDIS.blend",
