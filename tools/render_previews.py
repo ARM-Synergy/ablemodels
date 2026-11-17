@@ -1,6 +1,6 @@
 """Studio preview renders of library assets.
 blender -b --factory-startup --python tools/render_previews.py -- jobs.json
-Each job: {"lib": "instruments/AERI/AERI.blend", "coll": "INST_AERI", "out": "instruments/preview/AERI.jpg",
+Each job: {"lib": "instruments/AERI/AERI.blend", "coll": "INST_AERI", "out": "instruments/preview/AERI.jpg", ["with": [extra colls],]
            "view": "34" | "aerial" | "lineup" | "cloud", "samples": 64, "res": [1280, 960]}
 The world (sky) and sun are linked from scenes/M1/M1.blend so previews match the scenes.
 """
@@ -125,6 +125,9 @@ for j in jobs:
     else:
         e = bpy.data.objects.new('PV_' + j['coll'], None); e.instance_type = 'COLLECTION'; e.instance_collection = coll
         sc.collection.objects.link(e); empties.append(e)
+        for xn in j.get('with', []):     # companion collections instanced at the same transform (e.g. SONDE + CartBalloon)
+            xe = bpy.data.objects.new('PV_' + xn, None); xe.instance_type = 'COLLECTION'; xe.instance_collection = link_coll(j['lib'], xn)
+            sc.collection.objects.link(xe); empties.append(xe)
     bpy.context.view_layer.update()
     lo, hi, n = bounds(empties, j.get('trim', 0.0))
     if n == 0:
