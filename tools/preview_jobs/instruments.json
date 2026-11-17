@@ -324,6 +324,20 @@
   "samples": 64
  },
  {
+  "lib": "instruments/SONDE/SONDE.blend",
+  "coll": "INST_SONDE",
+  "out": "instruments/preview/SONDE_CartBalloon.jpg",
+  "view": "34",
+  "res": [
+   1024,
+   768
+  ],
+  "samples": 64,
+  "with": [
+   "INST_SONDE_CartBalloon"
+  ]
+ },
+ {
   "lib": "instruments/STAMP/STAMP.blend",
   "coll": "INST_STAMP",
   "out": "instruments/preview/STAMP.jpg",

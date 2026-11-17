@@ -4,7 +4,9 @@ One file per instrument; link the `INST_*` (or `CSAPR2`) collection. Root at the
 
 `INST_BALLOON` is the radiosonde launch at M1: balloon, sonde, the line (a stretch-to constraint from sonde to balloon) and the two-person launch crew (`BALLOON_Crew`). It carries the release animation over frames 1–480; the *_Hold/*_Release crew poses swap visibility at release.
 
-`INST_SONDE` is the M1 sounding site: the UHF telemetry antenna mast, the GA31 GPS antenna and a concrete launch pad with the ARM balloon launch cart (green canvas hopper on a curved steel frame, two spoked wheels, helium hose). `SONDE_balloon_rig` holds a filled balloon in the cart under a canvas cover; hide it for an empty cart. The hidden `SONDE_free_balloon_rig` is a free balloon, parachute, unwinder and RS41 train for release shots.
+`INST_SONDE` is the M1 sounding site: the UHF telemetry antenna mast, the GA31 GPS antenna and a concrete launch pad with the ARM balloon launch cart (green canvas hopper on a curved steel frame, two spoked wheels, helium hose), shown empty. `INST_SONDE_CartBalloon` (same file) is a filled balloon under a canvas cover sitting in the cart: instance it at the same transform as `INST_SONDE`, and leave it out where the scene launches its own balloon (`INST_BALLOON`, as in M1). The hidden `SONDE_free_balloon_rig` is a free balloon, parachute, unwinder and RS41 train for release shots.
+
+`INST_ECOR` and `INST_SEBS` share one tower and must be instanced at the same transform. **Orientation: the sonic/IRGA/radiometer boom must always point due south** (asset −Y; azimuth 180°), so the tower, enclosures and their shadows stay north of the sensors and out of the radiometer's view. The CNR4 + CNF4 is an in-line extension of the boom; the three soil sets (HFP01 + HydraProbe) sit on a 0.70 m circle under it, 1.21 m apart. Both roots carry a `boom_heading` property.
 
 `INST_GNDRAD`, `INST_METWXT`, `INST_MRR`, `INST_PHENOCAM`, `INST_SOILVUE10` and `INST_STAMP` are procedural (rebuild with `blender -b --factory-startup --python tools/build_inst_<name>.py`; helpers in `tools/instlib.py`). Each root carries `full_name`, `sites`, `sources` and `notes` custom properties. Parts below grade (probes, footings, driven stakes, ground rods) sit in a `<NAME>_BelowGrade` child collection that is hidden in viewport and render; un-hide it for cut-away views. Their `bbox_*` describe what stands above ground and `below_grade_m` gives the depth.
 
@@ -39,6 +41,7 @@ One file per instrument; link the `INST_*` (or `CSAPR2`) collection. Root at the
 | <img src="preview/SIRS.jpg" width="260"> | `INST_SIRS` | [`SIRS/SIRS.blend`](SIRS/SIRS.blend) (0.3 MB) |
 | <img src="preview/SOILVUE10.jpg" width="260"> | `INST_SOILVUE10` | [`SOILVUE10/SOILVUE10.blend`](SOILVUE10/SOILVUE10.blend) (0.2 MB) |
 | <img src="preview/SONDE.jpg" width="260"> | `INST_SONDE` | [`SONDE/SONDE.blend`](SONDE/SONDE.blend) (0.2 MB) |
+| <img src="preview/SONDE_CartBalloon.jpg" width="260"> | `INST_SONDE` + `INST_SONDE_CartBalloon` | [`SONDE/SONDE.blend`](SONDE/SONDE.blend) (0.2 MB) |
 | <img src="preview/STAMP.jpg" width="260"> | `INST_STAMP` | [`STAMP/STAMP.blend`](STAMP/STAMP.blend) (0.2 MB) |
 | <img src="preview/VDIS.jpg" width="260"> | `INST_VDIS` | [`VDIS/VDIS.blend`](VDIS/VDIS.blend) (0.1 MB) |
 | <img src="preview/WB.jpg" width="260"> | `INST_WB` | [`WB/WB.blend`](WB/WB.blend) (0.2 MB) |
