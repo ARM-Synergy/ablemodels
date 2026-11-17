@@ -4,6 +4,8 @@ One file per instrument; link the `INST_*` (or `CSAPR2`) collection. Root at the
 
 `INST_BALLOON` is the radiosonde launch at M1: balloon, sonde, the line (a stretch-to constraint from sonde to balloon) and the two-person launch crew (`BALLOON_Crew`). It carries the release animation over frames 1–480; the *_Hold/*_Release crew poses swap visibility at release.
 
+`INST_SONDE` is the M1 sounding site: the UHF telemetry antenna mast, the GA31 GPS antenna and a concrete launch pad with the ARM balloon launch cart (green canvas hopper on a curved steel frame, two spoked wheels, helium hose). `SONDE_balloon_rig` holds a filled balloon in the cart under a canvas cover; hide it for an empty cart. The hidden `SONDE_free_balloon_rig` is a free balloon, parachute, unwinder and RS41 train for release shots.
+
 `INST_GNDRAD`, `INST_METWXT`, `INST_MRR`, `INST_PHENOCAM`, `INST_SOILVUE10` and `INST_STAMP` are procedural (rebuild with `blender -b --factory-startup --python tools/build_inst_<name>.py`; helpers in `tools/instlib.py`). Each root carries `full_name`, `sites`, `sources` and `notes` custom properties. Parts below grade (probes, footings, driven stakes, ground rods) sit in a `<NAME>_BelowGrade` child collection that is hidden in viewport and render; un-hide it for cut-away views. Their `bbox_*` describe what stands above ground and `below_grade_m` gives the depth.
 
 | Preview | Collection | File |
